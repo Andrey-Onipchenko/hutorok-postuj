@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Euclid Flex';
+    src: local('Euclid Flex Semi Bold'), local('Euclid-Flex-Semi-Bold'),
+        url('EuclidFlex-SemiBold.woff2') format('woff2'),
+        url('EuclidFlex-SemiBold.woff') format('woff'),
+        url('EuclidFlex-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+  }

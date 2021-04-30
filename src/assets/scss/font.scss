@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap");
+@font-face {
+  font-family: "Euclid Flex";
+  src: local("Euclid Flex Medium"), local("Euclid-Flex-Medium"),
+    url("../font/EuclidFlex-Medium.woff2") format("woff2"),
+    url("../font/EuclidFlex-Medium.woff") format("woff"),
+    url("../font/EuclidFlex-Medium.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Euclid Flex";
+  src: local("Euclid Flex Semi Bold"), local("Euclid-Flex-Semi-Bold"),
+    url("../font/EuclidFlex-SemiBold.woff2") format("woff2"),
+    url("../font/EuclidFlex-SemiBold.woff") format("woff"),
+    url("../font/EuclidFlex-SemiBold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: "FrizQuadrataCTT";
+  src: local("FrizQuadrataCTT Bold"), local("FrizQuadrataCTT-Bold"),
+    url("../font/FrizQuadrataCTT.woff2") format("woff2"),
+    url("../font/FrizQuadrataCTT.woff") format("woff"),
+    url("../font/FrizQuadrataCTT.ttf") format("truetype");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Chalkboard SE";
+  src: local("Chalkboard SE normal"), local("FrizQuadrataCTT-Bold"),
+    url("../font/Chalkboard-SE.woff2") format("woff2"),
+    url("../font/Chalkboard-SE.woff") format("woff"),
+    url("../font/Chalkboard-SE.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}

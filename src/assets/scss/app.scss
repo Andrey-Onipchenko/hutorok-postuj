@@ -1,0 +1,33 @@
+.nav {
+  width: 100%;
+  text-align: center;
+  padding: 30px 0 0;
+  position: absolute;
+  @media (max-width: 767px) {
+    padding: 10px;
+  }
+  &__link {
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    text-align: center;
+    color: #80ab53;
+    margin-right: 30px;
+    &:nth-last-child(1) {
+      margin-right: 0;
+    }
+    &_black {
+      color: #69645a;
+      @media (max-width: 767px) {
+        color: #fff !important;
+      }
+    }
+    @media (max-width: 767px) {
+      font-family: "Chalkboard SE", sans-serif;
+      font-weight: 300;
+      font-size: 12px;
+      line-height: 17px;
+      color: #545454;
+    }
+  }
+}
